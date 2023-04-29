@@ -1,5 +1,3 @@
-import { useEffect, useState } from "react";
-
 export default function View({ id, dispatch, product }) {
   return (
     <div className="view">
@@ -10,7 +8,7 @@ export default function View({ id, dispatch, product }) {
         &#10006;
       </button>
       <div className="product-img">
-        <img src={product?.image}></img>
+        <img src={product?.image} alt="img"></img>
       </div>
       <div className="product-detail">
         <h2 className="product-title">{product?.title}</h2>

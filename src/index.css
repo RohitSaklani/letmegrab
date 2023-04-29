@@ -12,6 +12,10 @@ td {
   border: 1px solid;
 }
 
+table {
+  margin: 1%;
+}
+
 .pop-up {
   font-family: "Montserrat", sans-serif;
 

@@ -1,5 +1,3 @@
-import { useEffect } from "react";
-
 export default function Sort({ products, setProducts }) {
   function getSortedData(value) {
     fetch("https://fakestoreapi.com/products?sort=" + value)
